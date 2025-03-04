@@ -8,18 +8,36 @@
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <title>Login Cursos</title>
 </head>
-<body>
+<body class="body-login-page">
     <main id="container">
         <form action="">
+
             <h1>Login Cursos</h1>
+
             <div id="input-box">
                 <input type="email" placeholder="Usuário">
                 <i class="bx bxs-user"></i>
             </div>
+
             <div id="input-box">
                 <input type="password" placeholder="Senha">
                 <i class="bx bxs-lock-alt"></i>
             </div>
+
+            <div id="remember-forgot">
+                <label for="">
+                    <input type="checkbox">
+                    Remember my password
+                </label>
+                <a href="#">Forgot password</a>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <div id="register-link">
+                <p> I don't have an account <a href="#">register</a> </p>
+            </div>
+
         </form>
     </main>
 </body>
