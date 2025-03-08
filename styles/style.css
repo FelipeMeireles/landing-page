@@ -113,8 +113,17 @@ input{
     font-size: 15px;
 }
 
-.body-login-page{
+/* Estilização Login Page */
+
+#header-login-page{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-login-page{
+    display: block;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
@@ -123,6 +132,9 @@ input{
 }
 
 #container{
+    margin-top: 100px;
+    margin-left: 28%;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 420px;
@@ -142,4 +154,30 @@ input{
     width: 100%;
     height: 50px;
     margin: 30px 0;
+}
+
+#input-box input{
+    width: 90%;
+    height: 90%;
+ 
+}
+
+#input-box i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 150%;
+    transform: translateY(-150%);
+    color: #9B06CE;
+}
+
+#ul-login-page{
+    display: inline-block;
+    margin: 20px;
+}
+
+#remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
