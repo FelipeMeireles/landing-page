@@ -181,3 +181,23 @@ input{
     justify-content: space-between;
     align-items: center;
 }
+
+#login-btn{
+    border: 2px solid #9B06CE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#login-btn:hover{
+    background-color: #9B06CE;
+    color: white;
+}
+
+button{
+    color: rgb(0, 0, 0);
+}
+
+button:hover{
+    color: #9B06CE;
+    transition: 0.3s all;
+}
