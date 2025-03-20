@@ -26,7 +26,7 @@ header{
     align-items: center;
 }
 
-#title{
+.title{
     flex-direction: column;
     line-height: 10px;
 }
@@ -45,13 +45,13 @@ a:hover{
     transition: 0.3s all;
 }
 
-#inscreva-se-btn{
+.inscreva-se-btn{
     border: 2px solid #9B06CE;
     padding: 10px;
     border-radius: 10px;
 }
 
-#inscreva-se-btn:hover{
+.inscreva-se-btn:hover{
     background-color: #9B06CE;
     color: white;
 }
@@ -86,13 +86,13 @@ p{
     font-family: poppinslight;
 }
 
-form{
+.index-form{
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
-#btn-enviar{
+.btn-enviar{
     height: 50px;
     width: 50%;
     background-color: #9B06CE;
@@ -100,7 +100,7 @@ form{
     font-weight: bold;
 }
 
-#btn-enviar:hover{
+.btn-enviar:hover{
     cursor: pointer;
 }
 
@@ -115,8 +115,8 @@ input{
 
 /* Estilização Login Page */
 
-#header-login-page{
-    display: flex;
+.header-login-page{
+    /* display: flex; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -145,24 +145,24 @@ input{
     box-shadow: 0 0 10px #9B06CE;
 }
 
-#login-cursos{
+.login-cursos{
     text-align: center;
 }
 
-#input-box{
+.input-box{
     position: relative;
     width: 100%;
     height: 50px;
     margin: 30px 0;
 }
 
-#input-box input{
+.input-box input{
     width: 90%;
     height: 90%;
  
 }
 
-#input-box i{
+.input-box i{
     position: absolute;
     right: 20px;
     font-size: 20px;
@@ -171,24 +171,24 @@ input{
     color: #9B06CE;
 }
 
-#ul-login-page{
+.ul-login-page{
     display: inline-block;
     margin: 20px;
 }
 
-#remember-forgot{
+.remember-forgot{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#login-btn{
+.login-btn{
     border: 2px solid #9B06CE;
     padding: 10px;
     border-radius: 10px;
 }
 
-#login-btn:hover{
+.login-btn:hover{
     background-color: #9B06CE;
     color: white;
 }
@@ -201,3 +201,53 @@ button:hover{
     color: #9B06CE;
     transition: 0.3s all;
 }
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/* Estilização Contatos Page */
+
+.main-contatos {
+    display: block;
+}
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+.contatos-form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contatos-form input{
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.span-comigo {
+    padding-left: 20px;
+}
+
+
+/* .btn-enviar{
+    border: 2px solid #9B06CE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-enviar:hover{
+    background-color: #9B06CE;
+    color: white;
+} */
